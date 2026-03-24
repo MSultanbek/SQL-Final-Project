@@ -1,1 +1,4 @@
-# This file is to download the dataset
+# SQL-Final-Project
+
+
+Final Project: AI Agent for Relational Database System Dataset - Hotel Bookings
