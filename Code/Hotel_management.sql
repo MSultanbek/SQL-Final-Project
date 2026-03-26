@@ -1,3 +1,8 @@
+CREATE DATABASE IF NOT EXISTS hotel_management_db;
+USE hotel_management_db;
+
+
+
 -- 1. Create Dimension Tables
 
 
@@ -97,7 +102,7 @@ CREATE TABLE Bookings (
 
     assigned_room_type_id INT,
 
-    deposit_type INT,
+    deposit_type_id INT,
 
     
 

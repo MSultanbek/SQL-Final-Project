@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/ER-Diagram.md",
-                "mode": "preview",
+                "file": "Project log/24-03-2026.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ER-Diagram"
+              "title": "24-03-2026"
             }
           }
         ]
@@ -182,8 +182,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4857c515b013768d",
+  "active": "8900e60582da8e47",
   "lastOpenFiles": [
+    "diagrams/ER-Diagram.md",
+    "diagrams",
+    "Jupyter notebooks/data_redacting.ipynb",
+    "Jupyter notebooks",
     "Project log/24-03-2026.md",
     "Code/Hotel_management.sql",
     "Code",
