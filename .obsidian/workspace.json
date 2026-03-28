@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project log/24-03-2026.md",
+                "file": "Notes/Columns we should work on.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "24-03-2026"
+              "title": "Columns we should work on"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 255.5
   },
   "right": {
     "id": "5b3635f68c189a00",
@@ -182,8 +182,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8900e60582da8e47",
+  "active": "4857c515b013768d",
   "lastOpenFiles": [
+    "Project log/24-03-2026.md",
+    "Notes/Columns we should work on.md",
+    "Notes/ER-Diagram.md",
     "Jupy_books/hotel_bookings.csv",
     "Jupy_books/data_redacting.ipynb",
     "Jupy_books",
@@ -191,7 +194,6 @@
     "diagrams",
     "Jupyter notebooks/data_redacting.ipynb",
     "Jupyter notebooks",
-    "Project log/24-03-2026.md",
     "Code/Hotel_management.sql",
     "Code",
     "Project log/25-03-2026.md",
@@ -205,9 +207,7 @@
     "Notes/Questions user might ask our ai.md",
     "Notes/Problem statements.md",
     "Notes/Primary keys.md",
-    "Notes/ER-Diagram.md",
     "Pasted image 20260325090204.png",
-    "Notes",
-    "Untitled.base"
+    "Notes"
   ]
 }
