@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Columns we should work on.md",
-                "mode": "source",
+                "file": "diagrams/ER-Diagram.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Columns we should work on"
+              "title": "ER-Diagram"
             }
           }
         ]
@@ -184,11 +184,13 @@
   },
   "active": "4857c515b013768d",
   "lastOpenFiles": [
+    "Readme.md",
     "Project log/27-03-2026.md",
-    "Project log/27-03-2026",
     "Project log/26-03-2026.md",
+    "Project log/25-03-2026.md",
     "Project log/24-03-2026.md",
     "Notes/Columns we should work on.md",
+    "Project log/27-03-2026",
     "Notes/ER-Diagram.md",
     "Jupy_books/hotel_bookings.csv",
     "Jupy_books/data_redacting.ipynb",
@@ -199,8 +201,6 @@
     "Jupyter notebooks",
     "Code/Hotel_management.sql",
     "Code",
-    "Project log/25-03-2026.md",
-    "Readme.md",
     "Project log",
     "Notes/Foreign keys.md",
     "Notes/Columns info.md",
