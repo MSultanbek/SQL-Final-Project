@@ -1,44 +1,43 @@
-CREATE DATABASE IF NOT EXISTS hotel_management_db;
-USE hotel_management_db;
-
-
-
--- 1. Create Dimension Tables
-
+create database if not exists hotel_management;
+use hotel_management;
 
 
 CREATE TABLE Hotels (
-
-    hotel_id INT PRIMARY KEY,
-
+    hotel_id INT AUTO_INCREMENT PRIMARY KEY,
     hotel_name VARCHAR(255)
-
 );
 
-
-
 CREATE TABLE Customers (
-
-    customer_id INT PRIMARY KEY,
-
+    customer_id INT AUTO_INCREMENT PRIMARY KEY,
     country VARCHAR(100),
-
     customer_type VARCHAR(100),
-
     is_repeated_guest INT,
-
     previous_cancellations INT,
-
     previous_bookings_not_canceled INT
+);
 
+CREATE TABLE MealPlans (
+    meal_id INT AUTO_INCREMENT PRIMARY KEY,
+    meal_type VARCHAR(100)
+);
+
+CREATE TABLE RoomTypes (
+    room_type_id INT AUTO_INCREMENT PRIMARY KEY,
+    room_type VARCHAR(100)
+);
+
+CREATE TABLE DepositTypes (
+    deposit_type_id INT AUTO_INCREMENT PRIMARY KEY,
+    deposit_type VARCHAR(100)
 );
 
 
 
 CREATE TABLE Agents (
-    agent_id INT PRIMARY KEY, 
 
+    agent_id INT PRIMARY KEY,
     agent_name VARCHAR(100)
+
 );
 
 
@@ -49,33 +48,6 @@ CREATE TABLE Companies (
     company_name VARCHAR(100)
 
 );
-
-
-
-CREATE TABLE MealPlans (
-
-    meal_id INT PRIMARY KEY,
-    meal_type VARCHAR(100)
-
-);
-
-
-
-CREATE TABLE RoomTypes (
-
-    room_type_id INT PRIMARY KEY,
-    room_type VARCHAR(100)
-
-);
-
-
-CREATE TABLE DepositTypes (
-
-    deposit_type_id INT PRIMARY KEY,
-    deposit_type VARCHAR(100)
-
-);
-
 
 
 -- 2. Create the central Bookings Fact Table
@@ -92,9 +64,9 @@ CREATE TABLE Bookings (
 
     customer_id INT,
 
-    agent_id INT NULL,
-
-    company_id INT NULL,
+	agent_id INT NULL,
+    
+	company_id INT NULL,
 
     meal_id INT,
 
@@ -148,6 +120,7 @@ CREATE TABLE Bookings (
 
     reservation_status_date DATE,
 
+    
 
     -- Foreign Key Constraints
 
