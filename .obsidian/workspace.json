@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diagrams/ER-Diagram.md",
+                "file": "Notes/Table names.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ER-Diagram"
+              "title": "Table names"
             }
           }
         ]
@@ -184,32 +184,33 @@
   },
   "active": "4857c515b013768d",
   "lastOpenFiles": [
-    "Readme.md",
-    "Project log/27-03-2026.md",
+    "Notes/Questions user might ask our ai.md",
+    "Notes/Problem statements.md",
+    "Notes/Primary keys.md",
+    "Notes/Foreign keys.md",
+    "Notes/Columns we should work on.md",
+    "Notes/Columns info.md",
+    "Notes/Columns clustered (refined).md",
+    "Notes/Columns clustered (mine).md",
+    "diagrams/ER-Diagram.md",
+    "Project log/29-03-2026.md",
+    "Project log/28-03-2026.md",
     "Project log/26-03-2026.md",
+    "Readme.md",
     "Project log/25-03-2026.md",
     "Project log/24-03-2026.md",
-    "Notes/Columns we should work on.md",
     "Project log/27-03-2026",
     "Notes/ER-Diagram.md",
     "Jupy_books/hotel_bookings.csv",
     "Jupy_books/data_redacting.ipynb",
     "Jupy_books",
-    "diagrams/ER-Diagram.md",
     "diagrams",
     "Jupyter notebooks/data_redacting.ipynb",
     "Jupyter notebooks",
     "Code/Hotel_management.sql",
     "Code",
     "Project log",
-    "Notes/Foreign keys.md",
-    "Notes/Columns info.md",
-    "Notes/Columns clustered (mine).md",
-    "Notes/Columns clustered (refined).md",
     "Notes/Table names.md",
-    "Notes/Questions user might ask our ai.md",
-    "Notes/Problem statements.md",
-    "Notes/Primary keys.md",
     "Pasted image 20260325090204.png"
   ]
 }

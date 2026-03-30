@@ -2,6 +2,8 @@ create database if not exists hotel_management;
 use hotel_management;
 
 
+
+
 CREATE TABLE Hotels (
     hotel_id INT AUTO_INCREMENT PRIMARY KEY,
     hotel_name VARCHAR(255)
@@ -141,3 +143,14 @@ CREATE TABLE Bookings (
     FOREIGN KEY (deposit_type_id) REFERENCES DepositTypes(deposit_type_id)
 
 );
+
+
+
+-- Indexes for frequent query columns
+CREATE INDEX idx_arrival_year ON Bookings(arrival_date_year);
+CREATE INDEX idx_arrival_month ON Bookings(arrival_date_month);
+CREATE INDEX idx_is_canceled ON Bookings(is_canceled);
+CREATE INDEX idx_adr ON Bookings(adr);
+CREATE INDEX idx_market_segment ON Bookings(market_segment);
+CREATE INDEX idx_company_id ON Bookings(company_id);
+CREATE INDEX idx_is_repeated ON Customers(is_repeated_guest);
