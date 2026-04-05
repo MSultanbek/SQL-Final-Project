@@ -184,6 +184,10 @@
   },
   "active": "4857c515b013768d",
   "lastOpenFiles": [
+    "Code/Calls.sql",
+    "Code/Stored procedures.sql",
+    "Code/Views check.sql",
+    "Code/Views.sql",
     "Notes/Questions user might ask our ai.md",
     "Notes/Problem statements.md",
     "Notes/Primary keys.md",
@@ -207,9 +211,6 @@
     "diagrams",
     "Jupyter notebooks/data_redacting.ipynb",
     "Jupyter notebooks",
-    "Code/Hotel_management.sql",
-    "Code",
-    "Project log",
     "Notes/Table names.md",
     "Pasted image 20260325090204.png"
   ]
