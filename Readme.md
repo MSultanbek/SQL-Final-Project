@@ -42,14 +42,16 @@ pip install pandas sqlalchemy pymysql langchain langchain-community langchain-gr
 ---
 
 ## Setup
+### 1. Dataset
+Dataset: Hotel Booking Demand — [Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) 119,390 rows, 32 columns. Download the CSV and place it in data/hotel_bookings.csv before running the notebooks.
 
-### 1. Database
+### 2. Database
 
 - Open MySQL Workbench and run `Code/Hotel_management.sql` to create the database and all tables
 - Then run `Code/Views.sql` to create the analytical views
 - Then run `Code/Stored procedures.sql` to create the stored procedures
 
-### 2. Data Cleaning and Population
+### 3. Data Cleaning and Population
 
 Open `Jupy_books/data_redacting.ipynb` in VS Code or Jupyter and run all cells in order. This will:
 - Clean the raw CSV dataset
@@ -60,11 +62,11 @@ Update the connection string in the notebook with your MySQL credentials:
 engine = create_engine("mysql+pymysql://root:YOUR_PASSWORD@127.0.0.1/hotel_management")
 ```
 
-### 3. AI Agent Notebook
+### 4. AI Agent Notebook
 
 Open `Jupy_books/ai_agent.ipynb` and add your Groq API key (get one free at console.groq.com). Run all cells to test the agent.
 
-### 4. Chat UI
+### 5. Chat UI
 
 Run the Gradio chat app:
 ```bash
