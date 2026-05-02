@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from langchain_groq import ChatGroq
 from langchain_community.utilities import SQLDatabase
 from langchain_community.agent_toolkits import create_sql_agent
@@ -7,15 +11,12 @@ import gradio as gr
 
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
-    api_key="",
+    api_key=os.getenv("GROQ_API_KEY"),
     temperature=0
 )
 
-
-
-
 engine = create_engine(
-    "mysql+pymysql://root:g1k8tc@127.0.0.1/hotel_management"
+    f"mysql+pymysql://root:{os.getenv('DB_PASSWORD')}@127.0.0.1/hotel_management"
 )
 
 db = SQLDatabase(engine)
