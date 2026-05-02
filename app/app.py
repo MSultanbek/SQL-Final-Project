@@ -7,7 +7,7 @@ import gradio as gr
 
 llm = ChatGroq(
     model="llama-3.3-70b-versatile",
-    api_key="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",
+    api_key="",
     temperature=0
 )
 

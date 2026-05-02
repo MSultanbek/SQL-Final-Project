@@ -53,7 +53,7 @@ pip install pandas sqlalchemy pymysql langchain langchain-community langchain-gr
 
 Open `Jupy_books/data_redacting.ipynb` in VS Code or Jupyter and run all cells in order. This will:
 - Clean the raw CSV dataset
-- Populate all 7 database tables
+- Populate all 8 database tables
 
 Update the connection string in the notebook with your MySQL credentials:
 ```python
@@ -80,7 +80,7 @@ Then open `http://127.0.0.1:7860` in your browser. You can ask questions like:
 
 ## Database Schema
 
-7 tables in a star schema centered on the `Bookings` fact table:
+8 tables in a star schema centered on the `Bookings` fact table:
 
 | Table | Description |
 |---|---|
